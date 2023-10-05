@@ -1,0 +1,56 @@
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-size
+}
+
+/* Style the navbar */
+nav {
+    background-color: white;
+    color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style the left part of the navbar */
+.left-part a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom:25px;
+    padding-left:70px;
+}
+
+.left-part p{
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left:100px;
+}
+
+/* Style the right part of the navbar */
+.right-part ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.right-part li {
+    margin-right: 20px;
+}
+
+.right-part a {
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+
+/* Change link color on hover */
+.right-part a:hover {
+    color: #0e0d0d;
+}
+
+

@@ -1,0 +1,27 @@
+
+
+/* Style the text overlay */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Style the large text */
+.large-text {
+    font-size: 24px; /* Adjust the font size for large text */
+    display: block; /* Start on a new line */
+}
+
+/* Style the small text */
+.small-text {
+    font-size: 14px; /* Adjust the font size for small text */
+    display: block; /* Start on a new line */
+}
+/* for image and text*/

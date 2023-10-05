@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: space-between; /* Create two equal-width columns */
+    padding: 20px; /* Add some spacing around the content */
+}
+
+/* Contact information styles (left column) */
+.contact-info {
+    flex: 1; /* Take up half of the container width */
+    padding: 20px; /* Add some spacing inside the column */
+    background-color: #f0f0f0; /* Background color for the contact info */
+}
+
+/* Form container styles (right column) */
+.form-container {
+    flex: 1; /* Take up half of the container width */
+    padding: 20px; /* Add some spacing inside the column */
+}
+
+/* Form styles (style your form elements as needed) */
+.form-group {
+    margin-bottom: 15px; /* Add spacing between form groups */
+}
+
+label {
+    display: block; /* Place labels on separate lines */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

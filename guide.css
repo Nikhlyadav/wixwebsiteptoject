@@ -1,0 +1,10 @@
+/* CSS styles for the background image container */
+.background-image-container {
+    background-image: url('C:\Users\Nikhil\Desktop\project\image.jpg.webp'); /* Replace with the actual path to your image */
+    background-size: 100px; /* Adjust as needed */
+    background-position: 100px; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    /* Add other styling properties as needed */
+    width: 200%;
+    height: 700px; /* Set a height for the container */
+}
